@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Julia’s Secrets - منتجات العناية بالبشرة الطبيعية</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body {
+    font-family: 'Cairo', sans-serif;
+    background: #faf9f5;
+    color: #4a4a4a;
+  }
+  .logo-img {
+    max-width: 280px;
+    filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.1));
+  }
+  .btn-primary {
+    background: #eab8c3;
+    color: #4a4a4a;
+    font-weight: 600;
+  }
+  .btn-primary:hover {
+    background: #d48ca1;
+    color: white;
+  }
+  header {
+    border-bottom: 1px solid #f0e8e8;
+  }
+  /* Custom scrollbar for product grid */
+  .products::-webkit-scrollbar {
+    height: 8px;
+  }
+  .products::-webkit-scrollbar-thumb {
+    background: #d48ca1;
+    border-radius: 10px;
+  }
+  .product-card {
+    transition: box-shadow 0.3s ease;
+  }
+  .product-card:hover {
+    box-shadow: 0 10px 15px rgba(212, 140, 161, 0.3);
+  }
+</style>
+</head>
+<body class="flex flex-col min-h-screen">
+
+<header class="py-8 px-4 flex flex-col items-center bg-white">
+  <img 
+    src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4570e4ac-9225-4a36-9537-7b0d5445d07d.png's+Secrets+Logo&font=serif" 
+    alt="شعار جوليا سيكريتس، وجه خط فني يحيط به إطار من الأوراق والزهور باللون الوردي العصري" 
+    class="logo-img mb-4"
+    onerror="this.style.display='none'"
+  />
+  <h1 class="text-4xl font-extrabold mb-2">منتجات جوليا سيكريتس للعناية بالبشرة</h1>
+  <p class="text-lg text-gray-600 max-w-xl text-center">منتجات عناية بالبشرة مصنوعة يدوياً من مكونات طبيعية 100% للحفاظ على بشرتك صحية وجميلة</p>
+</header>
+
+<main class="flex-grow px-6 py-12 max-w-7xl mx-auto">
+
+  <section aria-label="منتجات العناية بالبشرة الطبيعية" class="mb-12">
+    <h2 class="text-3xl font-bold mb-6 border-b-2 border-pink-300 pb-2 w-fit mx-auto">منتجاتنا المميزة</h2>
+    <div class="products grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 overflow-auto max-h-[650px]">
+      
+      <article class="product-card bg-white rounded-lg shadow-md p-6 flex flex-col">
+        <img 
+          src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/571ae355-9191-48f0-9621-3ed5dc1725c6.png" 
+          alt="صابون طبيعي بلون وردي فاتح مع زخارف نباتية" 
+          class="rounded-md mb-4 object-cover"
+          onerror="this.style.display='none'"
+        />
+        <h3 class="text-xl font-semibold mb-1">صابون طبيعي</h3>
+        <p class="text-pink-500 font-bold mb-4">45 ريال سعودي</p>
+        <p class="text-gray-600 flex-grow">صابون يدوي مرطب غني بزيت الورد وزبدة الشيا لتنظيف وترطيب عميق للبشرة الحساسة.</p>
+        <button class="btn-primary mt-6 py-2 rounded-md hover:shadow-lg transition">أضف إلى السلة</button>
+      </article>
+      
+      <article class="product-card bg-white rounded-lg shadow-md p-6 flex flex-col">
+        <img 
+          src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/7664bab5-c2d4-42d4-ae2f-fbd2a2490493.png" 
+          alt="زجاجة زيت وجه عضوي مع خلفية وردية ناعمة ولافتة أوراق طبيعية" 
+          class="rounded-md mb-4 object-cover"
+          onerror="this.style.display='none'"
+        />
+        <h3 class="text-xl font-semibold mb-1">زيت وجه عضوي</h3>
+        <p class="text-pink-500 font-bold mb-4">85 ريال سعودي</p>
+        <p class="text-gray-600 flex-grow">تركيبة طبيعية 100% تغذي البشرة وتعطيها توهج ناعم وحيوي باستخدام زيت الأرغان واللافندر.</p>
+        <button class="btn-primary mt-6 py-2 rounded-md hover:shadow-lg transition">أضف إلى السلة</button>
+      </article>
+      
+      <article class="product-card bg-white rounded-lg shadow-md p-6 flex flex-col">
+        <img 
+          src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8a4d6e7a-bf52-4007-8e02-ba99ade4fabc.png" 
+          alt="حاوية قناع طين طبيعي مع لون وردي فاتح وأزهار ناعمة حولها" 
+          class="rounded-md mb-4 object-cover"
+          onerror="this.style.display='none'"
+        />
+        <h3 class="text-xl font-semibold mb-1">قناع طين الوجه</h3>
+        <p class="text-pink-500 font-bold mb-4">65 ريال سعودي</p>
+        <p class="text-gray-600 flex-grow">قناع طيني طبيعي يمتص الشوائب وينقي المسام لإشراقة صحية وطبيعية من العمق.</p>
+        <button class="btn-primary mt-6 py-2 rounded-md hover:shadow-lg transition">أضف إلى السلة</button>
+      </article>
+
+      <!-- يمكن اضافة منتجات أخرى هنا بنفس النمط -->
+
+    </div>
+  </section>
+
+  <section aria-label="حول جوليا سيكريتس" class="bg-pink-50 rounded-lg p-8 max-w-3xl mx-auto text-center text-gray-700 shadow-lg">
+    <h2 class="text-2xl font-semibold mb-4">عن جوليا سيكريتس</h2>
+    <p class="mb-4 px-4">
+      نسعى في جوليا سيكريتس إلى تقديم منتجات عناية بالبشرة مصنوعة يدوياً من أجود المكونات الطبيعية، لتمنح بشرتك العناية والنعومة التي تستحقها. 
+      منتجاتنا خالية من المواد الكيميائية الضارة ومناسبة لجميع أنواع البشرة.
+    </p>
+  </section>
+
+</main>
+
+<footer class="bg-white py-8 text-center text-sm text-gray-500 border-t border-gray-200">
+  © 2024 جوليا سيكريتس للحلول الطبيعية للعناية بالبشرة. جميع الحقوق محفوظة.
+</footer>
+
+</body>
+</html>
+
+```
